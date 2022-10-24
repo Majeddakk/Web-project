@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <title>Home Page</title>
+    <link rel= "icon" href="../pics/airplane logo.png">
+</head>
+<body>
+  <section class="header">
+    <nav id="nav">
+        <h2 class="logo"><a style="text-decoration: none; color:#fff;" href="index.html">HOPE</a></h2>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="Main.html">HOME</a></li>
+            <li><a href="ABOUT.html">ABOUT</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li>
+             <a href="CONTACT.html">CONTACT</a>
+            </li>
+            <li class="dropdown">
+              <a class="dropbtn" href="#">LOGIN</a>
+              <div class="dropdown-content">
+                <form action="/login" method="get">
+                  <button class="transparent-btn" type="button" name="user">USER</button>
+                </form>
+                <form action="/admin" method="get">
+                  <button class="transparent-btn" type="button" name="admin">ADMIN</button>
+                </form>
+                <form action="/register" method="get">
+                  <button class="transparent-btn" type="button" name="register" >REGISTER</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="Slogan">
+        <h1>Welcome To HOPE AIRLINES </h1>
+        <p>Where the skies are your home</p>
+        <form method="post">
+          <button type="submit" class="explore-btn transparent-btn" style="font-size:2rem;"><a href="Login.html" style="text-decoration: none; color: white;">Book a flight!</a></button>
+        </form>
+      </div>
+    </section>
+
+  <section class="Desc">
+    <h1>Enjoy your next destination with HOPE aviation</h1>
+    <p>Wherever you want to go we got you covered, enjoy our state of the art technologies coupled with our incredible customer service.</p>
+    
+  </section>
+    </body>
+</html>

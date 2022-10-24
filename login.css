@@ -1,0 +1,29 @@
+.italics{
+    font-size: x-large;
+    font-style: italic;
+}
+
+#Username{
+    width: 35%;
+    height: 5%;
+}
+
+#Pass{
+    width: 35%;
+    height: 5%;
+}
+
+.repos{
+    padding-bottom: 1%;
+    margin-top: 6%;
+    width: 40%;
+    font-size: xx-large;
+}
+
+body{
+    background-image: url(../pics/airport\ login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Allerta Stencil';font-size: 22px;
+}
+
